@@ -1,19 +1,21 @@
 body {
-    
+
     width: 600xp;
     max-width: 600px;
     min-height: 1161px;
+    height: 1161px;
     border: 3px solid black;
     font-family: "Smythe", system-ui;
     margin: auto;
     position: relative;
-    overflow-x: hidden;
-    
+
 }
-#item-container{
+
+#item-container {
     max-width: 600px;
 }
-header{
+
+header {
     background-image: url("/image.png");
     max-width: 600xp;
     width: 600px;
@@ -21,36 +23,41 @@ header{
     background-size: 100%;
     background-repeat: no-repeat;
 }
-.container{
+
+.container {
     padding: 0xp auto;
     width: 600xp;
 }
-ul{
+
+ul {
 
     list-style: none;
-    margin: 67px auto 0px auto;
+    margin: 20px auto 0px auto;
     padding: 0px;
     width: 508px;
 }
-.food-list{
+
+.food-list {
     display: flex;
     width: 508px;
     height: 140px;
     justify-content: space-around;
     border-bottom: 1px solid #D2D2D2;
     position: relative;
-    margin-top: 45px;
+    margin-top: 20px;
 }
-.food-emoji{
+
+.food-emoji {
     font-size: 79px;
-    
+
     height: 89px;
     margin: 0;
     position: absolute;
     top: 4px;
     left: 0px;
 }
-.food-add-btn{
+
+.food-add-btn {
     height: 50px;
     width: 50px;
     border-radius: 50%;
@@ -62,34 +69,40 @@ ul{
     right: 0px;
     top: 8px;
 }
-.order{
+
+.order {
     width: 508px;
 }
-.food-name{
+
+.food-name {
     margin: 0px;
     margin-top: 8px;
     font-size: 28px;
     line-height: 17px;
 }
-.food-ingredients{
+
+.food-ingredients {
     font-size: 16px;
     color: #8B8B8B;
     margin: 0px;
     margin-top: 8px;
     line-height: 24px;
 }
-.foo-price{
+
+.foo-price {
     font-size: 20px;
     margin: 0px;
     margin-top: 8px;
     line-height: 24px;
 }
-.food-description{
+
+.food-description {
     position: absolute;
     top: 0px;
     left: 111px;
 }
-.finalMessage{
+
+.finalMessage {
     background-color: #ECFDF5;
     color: #065F46;
     width: 504px;
@@ -101,80 +114,98 @@ ul{
     justify-content: center;
     margin: 45px auto 0 auto;
 }
-.order{
+
+.order {
     text-align: center;
     margin: 0px auto;
+
 }
-.food-order{
+
+.food-order {
     display: flex;
     position: relative;
     gap: 10px;
 }
-.order-name{
+
+.order-name {
     font-size: 24px;
     line-height: 16.8px;
     align-items: center;
     margin: 5px 0px;
     align-self: center;
 }
-.order-remove-btn{
+
+.order-remove-btn {
     line-height: 24px;
     font-size: 12px;
     color: #BBBBBB;
     align-self: center;
 }
-.order-remove-btn:hover{
+
+.order-remove-btn:hover {
     color: red;
 }
-.order-price{
+
+.order-price {
     line-height: 24px;
     font-size: 20px;
     position: absolute;
     right: 2px;
 }
-#order-food{
+
+#order-food {
     border-bottom: 2px solid #393333;
+    max-height: 200px;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
-#total{
+
+#total {
     display: flex;
     justify-content: space-between;
 }
-#total-text{
+
+#total-text {
     font-size: 20px;
     line-height: 24px;
 }
-#total-price{
+
+#total-price {
     font-size: 20px;
     line-height: 24px;
 }
-#order-btn{
+
+#order-btn {
     width: 508px;
     height: 60px;
     background-color: #16DB99;
     color: #FFFFFF;
     border-radius: 3px;
     border: none;
-    margin-top: 53px;
+    margin-top: 20px;
     margin-bottom: 30px;
     font-weight: bold;
     font-size: 16px;
 }
-#your-title{
+
+#your-title {
     font-size: 28px;
     line-height: 16.8px;
 }
-input{
+
+input {
     font-size: 20;
     line-height: 32px;
     display: block;
     width: 446px;
     height: 70px;
     border-radius: 2px;
-    
+
     margin-bottom: 20px;
     padding: 0px 0px 0px 30px;
 }
-.payment-box{
+
+.payment-box {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,28 +223,32 @@ input{
     background-color: white;
     box-shadow: 0px 0px 1000px #757575;
 }
-#card-title{
+
+#card-title {
     font-size: 24px;
     line-height: 32px;
     margin: 45px 0px;
     font-weight: bold;
-    
+
 }
-#card-btn{
+
+#card-btn {
     margin: 0;
     margin-top: 25px;
     width: 475px;
     height: 70px;
     border-radius: 2px;
     background-color: #16DB99;
-    color: white;   
+    color: white;
 }
-#close-payment{
+
+#close-payment {
     position: absolute;
     right: 15px;
     top: 15px;
     margin: 0px;
 }
-.hidden{
+
+.hidden {
     display: none;
 }
