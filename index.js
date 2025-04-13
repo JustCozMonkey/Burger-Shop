@@ -67,8 +67,8 @@ const endPayment = () => {
         document.querySelector(".order").classList.add("hidden")
         orderList = []
         document.querySelector(".payment-box").classList.add("hidden")
-        document.querySelector(".payment-box").classList.reset()
         document.querySelector(".finalMessage").classList.remove("hidden")
+        document.querySelector(".payment-box").classList.reset()
     })
 }
 
